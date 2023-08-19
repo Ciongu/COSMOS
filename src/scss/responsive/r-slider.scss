@@ -1,0 +1,61 @@
+@media (max-width: 768px) {
+  .slider-section {
+    margin-top: 0;
+    .slider-container {
+      width: 100%;
+      .swiper-wrapper {
+        height: 500px;
+
+        .slider {
+          height: 100%;
+          flex-direction: column;
+          border-radius: 0;
+
+          .img-container {
+            height: 400px;
+
+            img {
+              max-height: 100%;
+              max-width: 100%;
+              object-fit: cover;
+            }
+          }
+
+          article {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+
+            h1 {
+              margin-left: 0.5rem;
+            }
+
+            .price-container {
+              position: initial;
+              height: initial;
+              width: 10rem;
+              border: none;
+              margin: 0;
+              margin-right: 0.5rem;
+              flex-direction: row;
+              background-color: $slider-background;
+
+              button {
+                width: 4rem;
+                font-size: 0.8rem;
+              }
+
+              .euro {
+                font-size: 1.2rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

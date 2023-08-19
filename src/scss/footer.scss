@@ -1,0 +1,19 @@
+.copyright {
+  height: 12.5rem;
+  margin-top: 8.4rem;
+  background: $nav-background;
+  display: flex;
+  justify-content: center;
+
+  div {
+    width: 66rem;
+  }
+
+  p {
+    margin-top: 2.4rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+    width: 22rem;
+    color: darken($text-color, 20%);
+  }
+}

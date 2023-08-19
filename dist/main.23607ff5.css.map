@@ -1,0 +1,1 @@
+{"version":3,"sources":["..\\src\\scss\\main.scss"],"names":[],"mappings":"AAAA;AAGA;EACE,YAFI","file":"main.23607ff5.css","sourceRoot":"..\\src","sourcesContent":["/* prettier-ignore*/\r\n\r\n$red: red;\r\nbody {\r\n  background: $red;\r\n}\r\n"]}

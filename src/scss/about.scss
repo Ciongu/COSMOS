@@ -1,0 +1,36 @@
+.about-container {
+  margin-top: 4.5rem;
+  display: flex;
+  justify-content: center;
+
+  .about {
+    width: 66rem;
+
+    .title {
+      font-size: 2rem;
+      font-weight: 400;
+      &::first-letter {
+        font-weight: 700;
+      }
+    }
+
+    .underline {
+      width: 33rem;
+      height: 1px;
+      background: #3a424e;
+      margin-top: 1rem;
+    }
+
+    article {
+      margin-top: 2rem;
+      width: 44rem;
+
+      p {
+        line-height: 1.5rem;
+      }
+    }
+    .checkout {
+      margin-top: 2rem;
+    }
+  }
+}

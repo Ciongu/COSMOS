@@ -1,0 +1,146 @@
+.slider-container {
+  width: 66rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  .slider {
+    position: relative;
+    background: $slider-background;
+    display: flex;
+    width: 66rem;
+    height: 25rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+
+    .img-container {
+      img {
+        width: 736px;
+        height: 414px;
+      }
+    }
+
+    h1 {
+      font-size: 1.9rem;
+      font-weight: 350;
+      &::first-letter {
+        font-weight: 700;
+      }
+    }
+
+    article {
+      position: relative;
+      margin-top: 1rem;
+      margin-left: 1rem;
+
+      .info {
+        margin-top: 1rem;
+        width: 13rem;
+        height: 11rem;
+      }
+
+      .price-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 0.5rem;
+        position: absolute;
+        border: 1px solid #181d26;
+        width: 18rem;
+        height: 4.5rem;
+        display: flex;
+        bottom: 1rem;
+        background: #272b35;
+
+        .euro {
+          font-size: 2rem;
+        }
+
+        .price-details {
+          font-size: 0.8rem;
+        }
+      }
+    }
+    .planet-details {
+      position: absolute;
+      top: 1.2rem;
+      left: 1rem;
+    }
+  }
+}
+
+.arr {
+  height: 1rem;
+  width: 1rem;
+  border-top: 6px solid #a9b5cc;
+  border-left: 6px solid #a9b5cc;
+}
+
+button {
+  font-size: 1rem;
+  width: 6rem;
+  height: 2rem;
+
+  border-radius: 0.3rem;
+  background: #46c351;
+  color: #fff;
+  border: none;
+
+  &:active {
+    box-shadow: -1px 1px 10px 1px inset $slider-background;
+  }
+}
+
+.slider-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.5rem;
+
+  .slider-button {
+    z-index: 2;
+    border: none;
+    position: relative;
+    border-radius: 0.5rem;
+    width: 3.3rem;
+    height: 3rem;
+    font-size: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background: #272b35;
+
+    &.right {
+      &:hover {
+        box-shadow: -2px 2px 10px 1px $text-color;
+      }
+      &:active {
+        box-shadow: -1px 1px 10px 1px inset $text-color;
+      }
+    }
+
+    &.left {
+      &:hover {
+        box-shadow: 2px 2px 10px 1px $text-color;
+      }
+
+      &:active {
+        box-shadow: 1px 1px 10px 1px inset $text-color;
+      }
+    }
+
+    .arr {
+      position: absolute;
+
+      top: 0.8rem;
+      &.left {
+        transform: rotate(-45deg);
+        left: 1.2rem;
+      }
+      &.right {
+        left: 0.6rem;
+        transform: rotate(135deg);
+      }
+    }
+  }
+}

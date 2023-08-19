@@ -1,0 +1,32 @@
+@media (max-width: 915px) {
+  .about-container {
+    margin-top: 2rem;
+    .about {
+      width: 100%;
+      header {
+        h2 {
+          padding-left: 0.5rem;
+        }
+        .underline {
+          width: 100%;
+          margin-top: 0.5rem;
+        }
+      }
+      article {
+        width: 100%;
+        text-align: justify;
+        margin-top: 1rem;
+
+        p {
+          margin-left: 0.5rem;
+          margin-right: 0.5rem;
+        }
+      }
+
+      .checkout {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.adv-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.7rem;
+
+  .adv {
+    width: 66rem;
+    display: flex;
+    justify-content: space-around;
+
+    img {
+      width: 5.6rem;
+      height: 5.6rem;
+    }
+    span {
+      font-size: 4rem;
+    }
+    p {
+      width: 5.6rem;
+      font-size: 1.5rem;
+      text-align: center;
+
+      &::first-letter {
+        font-weight: 700;
+      }
+    }
+
+    .enjoy {
+      width: 18.2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: #272b35;
+
+      .str {
+        font-size: 3rem;
+        font-weight: 700;
+        &::first-letter {
+          font-weight: 700;
+        }
+      }
+
+      p {
+        width: 100%;
+        font-size: 1rem;
+        font-weight: 300;
+        &::first-letter {
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
